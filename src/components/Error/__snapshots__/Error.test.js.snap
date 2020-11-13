@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> when props are passed should render component 1`] = `
+<span
+  className="b-error"
+>
+  error text
+</span>
+`;

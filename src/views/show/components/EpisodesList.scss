@@ -1,0 +1,38 @@
+@import '../../../styles/global.scss';
+
+.episodes-list {
+    $table-color: $grey;
+    $default-padding: 10px;
+
+    &__title {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    &__table-row {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        border-left: 1px solid $table-color;
+        border-right: 1px solid $table-color;
+
+        &:nth-child(odd) {
+            background-color: $table-color;
+        }
+
+        &--header {
+            font-weight: bold;
+        }
+
+        &-value {
+            flex: 3;
+            padding: $default-padding;
+        }
+
+        &-date {
+            flex: 1;
+            text-align: center;
+            padding: $default-padding;
+        }
+    }
+}

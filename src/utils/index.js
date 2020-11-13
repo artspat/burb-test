@@ -1,0 +1,1 @@
+export { getDateString } from './date';

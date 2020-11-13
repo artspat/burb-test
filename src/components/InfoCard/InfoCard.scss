@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+
+.b-info-card {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: $grey;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    &__item {
+        padding: 3px 5px;
+
+        &-title {
+            font-weight: bold;
+        }
+    }
+
+    &__rating {
+        margin-top: 15px;
+    }
+}

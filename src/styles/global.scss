@@ -1,0 +1,50 @@
+$grey: #eee;
+$red: #a11;
+
+@mixin layout-box {
+    $default-padding: 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    &-big {
+        width: 65%;
+        padding: 0 $default-padding;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    &-small {
+        width: 35%;
+        padding: 0 $default-padding;
+        
+        &:first-child {
+            padding-left: 0;
+        }
+        
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+@mixin layout-box-responsive {
+    @include layout-box();
+
+    @media (max-width: 700px) {
+        display: block;
+
+        &-big,
+        &-small {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}

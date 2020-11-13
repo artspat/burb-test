@@ -1,0 +1,16 @@
+@import '../../styles/global.scss';
+
+.show {
+    &__title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    &__box {
+        @include layout-box-responsive;
+    }
+
+    &__box-content {
+        @include layout-box;
+    }
+}

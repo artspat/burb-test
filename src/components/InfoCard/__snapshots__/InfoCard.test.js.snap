@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoCard /> when no rating passed should not render rating 1`] = `
+<div
+  className="b-info-card"
+>
+  <h3
+    className="b-info-card__title"
+  >
+    Info cart
+  </h3>
+  <div
+    className="b-info-card__item"
+    key="1_0"
+  >
+    <span
+      className="b-info-card__item-title"
+    >
+      1
+      : 
+    </span>
+    <span>
+      1
+    </span>
+  </div>
+  <div
+    className="b-info-card__item"
+    key="2_1"
+  >
+    <span
+      className="b-info-card__item-title"
+    >
+      2
+      : 
+    </span>
+    <span>
+      2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<InfoCard /> when no values passed should not render values 1`] = `
+<div
+  className="b-info-card"
+>
+  <h3
+    className="b-info-card__title"
+  >
+    Info cart
+  </h3>
+  0
+  <div
+    className="b-info-card__rating"
+  >
+    <Rating
+      value={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<InfoCard /> when props are passed should render component 1`] = `
+<div
+  className="b-info-card css-class"
+>
+  <h3
+    className="b-info-card__title"
+  >
+    Info cart
+  </h3>
+  <div
+    className="b-info-card__item"
+    key="1_0"
+  >
+    <span
+      className="b-info-card__item-title"
+    >
+      1
+      : 
+    </span>
+    <span>
+      1
+    </span>
+  </div>
+  <div
+    className="b-info-card__item"
+    key="2_1"
+  >
+    <span
+      className="b-info-card__item-title"
+    >
+      2
+      : 
+    </span>
+    <span>
+      2
+    </span>
+  </div>
+  <div
+    className="b-info-card__rating"
+  >
+    <Rating
+      value={2}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> when no page size is not valid should not render component 1`] = `
+<o
+  activeClassName="b-pagination__page--active"
+  breakClassName="b-pagination__break"
+  breakLabel="..."
+  containerClassName="b-pagination"
+  disableInitialCallback={false}
+  disabledClassName="disabled"
+  eventListener="onClick"
+  marginPagesDisplayed={2}
+  nextAriaLabel="Next page"
+  nextClassName="b-pagination__page"
+  nextLabel="Next"
+  pageClassName="b-pagination__page"
+  pageCount={1}
+  pageRangeDisplayed={5}
+  previousAriaLabel="Previous page"
+  previousClassName="b-pagination__page"
+  previousLabel="Prev"
+/>
+`;
+
+exports[`<Pagination /> when props are passed should render component 1`] = `
+<o
+  activeClassName="b-pagination__page--active"
+  breakClassName="b-pagination__break"
+  breakLabel="..."
+  containerClassName="b-pagination"
+  disableInitialCallback={false}
+  disabledClassName="disabled"
+  eventListener="onClick"
+  marginPagesDisplayed={2}
+  nextAriaLabel="Next page"
+  nextClassName="b-pagination__page"
+  nextLabel="Next"
+  pageClassName="b-pagination__page"
+  pageCount={10}
+  pageRangeDisplayed={5}
+  previousAriaLabel="Previous page"
+  previousClassName="b-pagination__page"
+  previousLabel="Prev"
+/>
+`;

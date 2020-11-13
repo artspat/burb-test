@@ -1,0 +1,39 @@
+@import '../../styles/global.scss';
+
+.b-pagination {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    &__page {
+        cursor: pointer;
+        padding: 3px 7px;
+        margin-right: 3px;
+        border-radius: 3px;
+        border: 1px solid $grey;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--active {
+            cursor: default;
+            background-color: $grey;
+        }
+
+        &.disabled {
+            color: $grey;
+            cursor: default;
+        }
+
+        a:focus {
+            outline: none;
+        }
+    }
+
+    &__break {
+        padding: 3px 7px;
+    }
+}

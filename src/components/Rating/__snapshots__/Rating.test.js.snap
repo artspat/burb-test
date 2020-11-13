@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rating /> when props are not passed should use default values 1`] = `
+<div
+  className="b-rating"
+>
+  <StarRatings
+    changeRating={null}
+    gradientPathName=""
+    ignoreInlineStyles={false}
+    name="rating"
+    numberOfStars={10}
+    rating={0}
+    starDimension="16px"
+    starEmptyColor="rgb(203, 211, 227)"
+    starHoverColor="rgb(230, 67, 47)"
+    starRatedColor="red"
+    starSpacing="1px"
+    svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+    svgIconViewBox="0 0 51 48"
+    typeOfWidget="Star"
+  />
+  <span
+    className="b-rating__value"
+  >
+    0
+  </span>
+</div>
+`;
+
+exports[`<Rating /> when props are passed should render component 1`] = `
+<div
+  className="b-rating css-class"
+>
+  <StarRatings
+    changeRating={null}
+    gradientPathName=""
+    ignoreInlineStyles={false}
+    name="rating"
+    numberOfStars={10}
+    rating={3}
+    starDimension="16px"
+    starEmptyColor="rgb(203, 211, 227)"
+    starHoverColor="rgb(230, 67, 47)"
+    starRatedColor="red"
+    starSpacing="1px"
+    svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+    svgIconViewBox="0 0 51 48"
+    typeOfWidget="Star"
+  />
+  <span
+    className="b-rating__value"
+  >
+    3
+  </span>
+</div>
+`;
+
+exports[`<Rating /> when value is higher than 10 should use 10 as value 1`] = `
+<div
+  className="b-rating"
+>
+  <StarRatings
+    changeRating={null}
+    gradientPathName=""
+    ignoreInlineStyles={false}
+    name="rating"
+    numberOfStars={10}
+    rating={10}
+    starDimension="16px"
+    starEmptyColor="rgb(203, 211, 227)"
+    starHoverColor="rgb(230, 67, 47)"
+    starRatedColor="red"
+    starSpacing="1px"
+    svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+    svgIconViewBox="0 0 51 48"
+    typeOfWidget="Star"
+  />
+  <span
+    className="b-rating__value"
+  >
+    10
+  </span>
+</div>
+`;
+
+exports[`<Rating /> when value is less than 0 should use 0 as value 1`] = `
+<div
+  className="b-rating"
+>
+  <StarRatings
+    changeRating={null}
+    gradientPathName=""
+    ignoreInlineStyles={false}
+    name="rating"
+    numberOfStars={10}
+    rating={0}
+    starDimension="16px"
+    starEmptyColor="rgb(203, 211, 227)"
+    starHoverColor="rgb(230, 67, 47)"
+    starRatedColor="red"
+    starSpacing="1px"
+    svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+    svgIconViewBox="0 0 51 48"
+    typeOfWidget="Star"
+  />
+  <span
+    className="b-rating__value"
+  >
+    0
+  </span>
+</div>
+`;

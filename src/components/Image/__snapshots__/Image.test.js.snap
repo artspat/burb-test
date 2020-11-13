@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> when no image url should render default url 1`] = `
+<div
+  className="b-image css-class"
+>
+  <img
+    alt="image name"
+    className="b-image__image"
+    src="//static.tvmaze.com/images/no-img/no-img-landscape-text.png"
+  />
+</div>
+`;
+
+exports[`<Image /> when props are not passed should render with default values 1`] = `
+<div
+  className="b-image"
+>
+  <img
+    alt=""
+    className="b-image__image"
+    src="//static.tvmaze.com/images/no-img/no-img-landscape-text.png"
+  />
+</div>
+`;
+
+exports[`<Image /> when props are passed should render component 1`] = `
+<div
+  className="b-image css-class"
+>
+  <img
+    alt="image name"
+    className="b-image__image"
+    src="//static.tvmaze.com/images/no-img/no-img-landscape-text.png"
+  />
+</div>
+`;
